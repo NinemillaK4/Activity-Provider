@@ -1,0 +1,27 @@
+
+{
+
+"quantAnalytics": [
+	{"name": "total_evento_atend_otimo", "type": "integer"},
+	{"name": "total_evento_atend_boa", "type": "integer"},
+	{"name": "total_evento_atend_ruin", "type": "integer"},
+	{"name": "total_evento_sala_otimo", "type": "integer"},
+	{"name": "total_evento_sala_boa", "type": "integer"},
+	{"name": "total_evento_sala_ruin", "type": "integer"},
+	{"name": "total_evento_coffe_otimo", "type": "integer"},
+	{"name": "total_evento_coffe_boa", "type": "integer"},
+	{"name": "total_evento_coffe_ruin", "type": "integer"},
+	{"name": "total_evento_conforto_otimo", "type": "integer"},
+	{"name": "total_evento_conforto_boa", "type": "integer"},
+	{"name": "total_evento_conforto_ruin", "type": "integer"}
+],
+
+"qualAnalytics": [
+	{"name":"classif_evento_atend", "type": "array", "value" : ["otimo","boa","ruin"] },
+	{"name":"classif_evento_sala", "type": "array", "value" : ["otimo","boa","ruin"] },
+	{"name":"classif_evento_coffe", "type": "array", "value" : ["otimo","boa","ruin"] },
+	{"name":"classif_evento_conforto", "type": "array", "value" : ["otimo","boa","ruin"] },
+]
+
+}
+

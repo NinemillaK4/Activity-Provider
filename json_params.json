@@ -1,0 +1,39 @@
+
+//json_parm
+
+{ 
+"dataJSON":{
+    "Data":"data", "type":"date",
+    "perguntas": [
+        { "pergunta1":"Atendemento da Equipa de Eventos",
+            "respostas": [
+                {"opcao":"A","valor":"otimo"},
+                {"opcao":"B","valor":"boa"},
+                {"opcao":"C","valor":"ruim"},
+            ]
+        },
+        { "pergunta2":"Sala do Evento",
+            "respostas": [
+                {"opcao":"A","valor":"otimo"},
+                {"opcao":"B","valor":"boa"},
+                {"opcao":"C","valor":"ruim"},
+            ]
+        },
+        { "pergunta3":"Servico do coffe break",
+            "respostas": [
+                {"opcao":"A","valor":"otimo"},
+                {"opcao":"B","valor":"boa"},
+                {"opcao":"C","valor":"ruim"},
+                {"opcao":"D","valor":"Nao aplicada"},
+            ]
+        },
+        { "pergunta4":"Conforto",
+            "respostas": [
+                {"opcao":"A","valor":"otimo"},
+                {"opcao":"B","valor":"boa"},
+                {"opcao":"C","valor":"ruim"},
+            ]
+        },
+    ]
+  }
+}

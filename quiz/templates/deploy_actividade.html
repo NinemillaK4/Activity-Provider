@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block content %}
+
+<br> <br>
+URL : {{ value}}
+<br><br><br>
+
+<h6>Extrutura para registo de atividade</h6>
+{
+  <br>&ensp;&ensp;"activityID": "{{id}} ",<br>
+  &ensp;&ensp;"Inven!RAstdID": "{{id2}}",<br>
+  &ensp;&ensp;"json_params": {
+    <br>&ensp;&ensp;&ensp;&ensp;&ensp;"s1" : "Setting 1",
+    <br>&ensp;&ensp;&ensp;&ensp;&ensp;"s2" : "Setting 2",
+    <br>&ensp;&ensp;&ensp;&ensp;&ensp;"s3" : "Setting 3",
+    <br>&ensp;&ensp;&ensp;&ensp;&ensp;"s4" : "Setting 4"
+  <br>&ensp;&ensp;}
+<br>}
+
+{% endblock %}
+
+
